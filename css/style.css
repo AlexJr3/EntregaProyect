@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.marg {
+    margin-bottom: 14px;
+}
+
+.title-h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(134, 134, 167);
+}
+
+.logo {
+    width: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 1.5rem;
+}
+
+.clientes {
+    margin: 1.5rem 1.5rem;
+}
+
+.card {
+    margin: 1rem;
+    transition: all 0.5s ease;
+}
+.card:hover{
+scale:(1.2);
+box-shadow: 10px 5px 5px #000;
+}
+
+.footer {
+    padding:20px;
+    margin: 1.3rem;
+}
+
+.nombre {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 50px;
+    border-right: #000 solid 2px;
+    transition: all 1s ease;
+}
+.nombre:hover{
+    color: #000;
+    font-weight: bold;
+    font-size: 31px;
+
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.h2__title{
+    text-align: center;
+    margin: 20px;
+    color: #5d6ab1;
+
+}
